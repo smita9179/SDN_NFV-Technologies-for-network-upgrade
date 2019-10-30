@@ -14,3 +14,46 @@
 Due to increasing number of online devices, network traffic is happening these days. And it is predicted that it will be tripled by next year. If the business is still running on old network infrastructure, probably this is the right time to upgrade it. The introduction of new technologies brings an added burden on aging infrastructures, which then demand more and more efforts. If an IT manager is forced to spend most of the time and resources on maintaining and troubleshooting the network, the company cannot expand its business.
 
 There are lots of discussions happening about virtualization of networks. Hence two different methods came into pictures which are related: Software Defined Networking (SDN) and Network Functions Virtualization (NFV).  The objective of this document is to help end-users understand the impact that SDN and NFV have to existing systems.
+
+== SDN and NFV Technologies
+
+SDN and NFV were born out of a desire to gain mobility and programmability in existing networks. This would enable the rapid development and delivery of new applications and services in days or weeks, as compared to months or years.  Together, SDN and NFV systems enable the delivery of network resources simpler.  They reduce CapEx and OpEx and allow more flexibility in the network.
+
+=== Understanding SDN
+
+Even though SDN and NFV have a direct relationship, they are not really dependent on each other. Network function virtualization is similar to traditional server virtualization mechanisms. But it clearly focuses on networking services. Within NFV, there are virtualized network functions (VNFs). It is a confusing acronym but very important. VNFs are network software solutions that are implemented in parallel to an NFV framework.
+
+This could be a virtual appliance that is only responsible for load-balancing workloads. And, one might have a virtualized firewall scanning a specific network segment. Similarly, you can have virtual networking services like IPS, IDS, and malware engines. Finally, you can use virtual WANOP accelerators as network and service control tools to have a distributed NFV architecture.
+
+=== SDN and NFV Use Cases
+
+As service providers and enterprises now generally understand the potential benefits of SDN and NFV, both technologies have a strong momentum in the concept of specifics. Here are few use cases enlisted in below tables.
+
+== Comparison between Traditional Networks and Upgraded Networks with SDN and NFV
+
+Below images define the difference between the Traditional Network Infrastructure with SDN and NFV technologies.
+
+== Benefits of SDN and NFV
+
+SDN and NFV technologies allow businesses to access on-demand network capacity through a self-service platform. Also, routing and security protocols can be modified dynamically to resolve traffic, security threats and network outages in real time.
+
+The few vital advantages of upgrading network infrastructure with SDN and NFV are listed below:
+
+* Lead times of months are shortened to minutes to deliver fixed function equipment.
+* The flexibility of SDN and NFV makes it easier to roll out the innovative services, such as real-time HD video conferencing and cloud applications. And deliver a consistently high quality end user experience.
+* Through a simple dashboard, SDN and NFV bring the benefits of network-wide visibility, analysis and control. For each application traffic flow, a centralized controller determines the best route.
+* It accesses levels of congestion in real time, connects health, workload priority to business, and the quality of service required.
+* These technologies ensure cloud applications are responsive and easy to use, helping to increase employee productivity and deliver a great customer experience while minimizing network costs.
+* Security is one of the key attractions of SDN and NFV. It can push global security policies updates out centrally to every site, while a virtualized switch can filter packets at the network edge and redirect suspicious traffic to higher layer security controls.
+* To minimize capital expenditure, SDN and NFV can combine various compute, storage and retrieval roles on low-cost commodity servers.
+* They enable enterprises to use multivendor solutions to benefit healthy price competition and faster innovation.
+
+== Challenges related to SDN and NFV
+
+With this advanced technologies, some cons are also present. Some of them are as follow-
+
+* At the start, replacing network equipment with software can require changes in hardware. People know how and what to demand from routers. Moving the network in major ways involves some threat, and operators want to stop system breakdowns or more effort than their support staff can do.
+* Managing the network. There is more liability with more choices. When consumers gain control, device settings can differ. While many circumstances do not allow the service team to participate, those who do that pose conditions specific to their deployment.
+* Rapid growth. Growth is the kind of problem businesses like to have, but they need to keep up with it. Freed from the constraints of deploying hardware network devices, a whole new virtual infrastructure can start up in minutes. The provider needs to plan the expansion of its capacity to keep up while maintaining policies so that short-term spurts do not overwhelm it.
+
+Developing long-term plans and executing them one step at a time is the key to success for SDN and NFV. Proceeding at the right pace will open up many opportunities while ensuring that the provider can keep its customers satisfied and follow through.
