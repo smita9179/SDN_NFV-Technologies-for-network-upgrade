@@ -29,9 +29,43 @@ This could be a virtual appliance that is only responsible for load-balancing wo
 
 As service providers and enterprises now generally understand the potential benefits of SDN and NFV, both technologies have a strong momentum in the concept of specifics. Here are few use cases enlisted in below tables.
 
+Table 1: SDN potential use cases
+
+|===
+|*USE CASE*|*ROLE OF SDN*|
+|Bandwidth on demand|Enable programmatic controls on carrier links to request extra bandwidth when needed.|
+|Performance on demand|API-driven service in which the network dynamically ensures not only that the appropriate capacity is available for a given application, but also that a guaranteed level of performance is delivered.|
+|Dynamic WAN interconnects|Create dynamic interconnects at interchanges between enterprise links or between service providers using high- performance switches.|
+|Virtual edge / CPE|In combination with NFV, replace existing customer premises equipment (CPE) at residences and businesses with light- weight versions, moving common functions and complex traffic handling to the service provider edge or data center.|
+|Virtual private cloud|Operator offers a virtual cloud service within its network that provides enterprise-grade security, performance and control attributes associated with a private cloud.|
+|Network virtualization – multi-tenant networks|To dynamically create segregated topologically-equivalent networks across a data center, scaling beyond typical limits of VLANs today.|
+|Network virtualization – stretched networks|To create location-agnostic networks, across racks or across data centers, with VM mobility and dynamic reallocation of resources.|
+|===
+
+Table 2: NFV potential use cases
+
+|===
+|*USE CASE*|*ROLE OF NFV*|
+|Virtualization of mobile core network nodes|Virtualization of core network nodes, including IMS. Affected functions could include packet data network gateways, serving gateways, mobility management entities and mobile home subscriber servers.|
+|Virtualization of mobile base stations|Aims at realizing the base station function (at least specific functional block) with software based on standard IT platform. Mainly focused on LTE LTE-A, but similar concept can be applied to 2G, 3G and WiMax.|
+|Virtualized home environment|Aims to shift functionality away from the home to a network-located environment as a way to solve many installation and lifecycle upgrade problems, consolidating the corresponding workloads into equipment installed in the network operator premises.|
+|Virtualized network function as a service|Possible virtualization targets: enterprise access router/enterprise CPE, provider edge router, enterprise firewall, enterprise NG-FW, enterprise WAN optimization, deep packet inspection (appliance or a function), IPS – and other security appliances, network performance monitoring.|
+|Service chains with NFV|Virtualizing the appliance functions and putting them into applications on a server in a single location or area – making service analysis more efficient and streamlining the flow of traffic in the network.|
+|Virtualization of CDNs|Virtualization of content delivery networks (CDNs) potentially covers all components of the CDN, though the initial impact would probably be on cache nodes for achieving acceptable performance (e.g., throughput, latency).|
+|Fixed access network functions virtualization|Target network functions for virtualization in fixed access networks may include Layer 2 control functions from: OLTs, DSLAMs, ONU/ONTs and MDUs.|
+|===
+
 == Comparison between Traditional Networks and Upgraded Networks with SDN and NFV
 
-Below images define the difference between the Traditional Network Infrastructure with SDN and NFV technologies.
+Below table define the difference between the Traditional Network Infrastructure with SDN and NFV technologies.
+
+Table 3: Comparison between Traditional and Updraded Network
+|===
+|*PARAMETERS*|*TRADITIONAL NETWORKS*|*UPGRADED NETWORKS WITH SDN & NFV*|
+|Stateful inspection|Track the state of traffic present on layers 2 & 4.|Track the state of traffic present on layers 2 & 7.|
+|Integrated IPS (Intrusion Protection system)  and IDS (Intrusion Detection System)|The IPS or IDS deployment is done with the help of a separate appliance or an appliance that is logically separated with the single appliance.|IDS and IPS are fully integrated.|
+|Identity awareness|Not supported|Keeps the track of the identity of local traffic device and user.|
+|===
 
 == Benefits of SDN and NFV
 
