@@ -1,1 +1,16 @@
+//
+// file: index.adoc
+//
+= Network upgrade with SDN and NFV
+:sectnums:
+:toc: left
+:to levels:3
 
+:toc!:
+
+== Introduction
+
+
+Due to increasing number of online devices, network traffic is happening these days. And it is predicted that it will be tripled by next year. If the business is still running on old network infrastructure, probably this is the right time to upgrade it. The introduction of new technologies brings an added burden on aging infrastructures, which then demand more and more efforts. If an IT manager is forced to spend most of the time and resources on maintaining and troubleshooting the network, the company cannot expand its business.
+
+There are lots of discussions happening about virtualization of networks. Hence two different methods came into pictures which are related: Software Defined Networking (SDN) and Network Functions Virtualization (NFV).  The objective of this document is to help end-users understand the impact that SDN and NFV have to existing systems.
